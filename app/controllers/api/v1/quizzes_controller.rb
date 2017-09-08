@@ -18,7 +18,6 @@ class Api::V1::QuizzesController < ApplicationController
     else
       render status: 404,  json: { error: 'Quiz not found' }
     end
-
   end
 
   #############################################################################
